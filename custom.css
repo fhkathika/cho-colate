@@ -1,0 +1,101 @@
+.hero_image {
+    background: url(image8.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero_wrapper {
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero_wrapper h1{
+    font-size: 2.4rem;
+text-align: center;
+
+}
+
+.hero_wrapper p{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    display:inline-block;
+    margin-bottom:.5rem;
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding:.6rem;
+    border: none;
+    outline: none;
+}
+
+.form_code button{
+    width: 40%;
+
+    background-color: coral;
+    color: white;
+    display: inline-block;
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem auto 0rem;
+    padding: .6rem;
+}
+.form_code{
+    text-align: center;
+}
+
+
+
+.product{
+    width:90%;
+margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list_item{
+    float: left;
+    width: 30%;
+    margin-left:.5rem;
+    margin-top: 20px;
+}
+
+
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width:700px){
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/*Utility classes*/
+
+.image-responsive{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
